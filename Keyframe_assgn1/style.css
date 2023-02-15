@@ -1,0 +1,48 @@
+.container{
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    position: relative;
+}
+
+h1{
+    text-align: center;
+    
+}
+
+
+.img{
+    width: 80vw;
+    height: 85vh;
+    animation-name: image;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+    background-repeat: no-repeat;
+    position: relative;
+    left: 10%;
+    top: 5%;
+}
+
+@keyframes image{
+    0% 
+    {background-image: url(https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg?auto=compress&cs=tinysrgb&w=1600);
+    
+    }
+    
+    25%
+    {background-image: url(https://images.pexels.com/photos/850602/pexels-photo-850602.jpeg?auto=compress&cs=tinysrgb&w=1600);
+   
+    }
+    
+      75%
+    {background-image: url(https://images.pexels.com/photos/1633522/pexels-photo-1633522.jpeg?auto=compress&cs=tinysrgb&w=1600) ;
+    
+    }
+    
+        100%
+    {background-image: url(https://images.pexels.com/photos/35638/labrador-breed-dogs-animal.jpg?auto=compress&cs=tinysrgb&w=1600) ;
+    
+    }
+}
